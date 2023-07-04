@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo" />
+    <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,14 +38,20 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/myhanh/IdeaProjects/module-2/module-2",
+    "last_opened_file_path": "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss1/exercises",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ss1/exercises" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.English">
     <configuration name="DateOfMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss1.practices.DateOfMonth" />
@@ -129,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
-      <workItem from="1688467254369" duration="404000" />
+      <workItem from="1688467254369" duration="1091000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />
