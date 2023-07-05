@@ -6,6 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/exercises/First20Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/exercises/First20Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/exercises/PrimeSmaller100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/exercises/PrimeSmaller100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/exercises/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/exercises/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/practice/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/practice/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/practice/Interest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/practice/Interest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/practice/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/practice/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/practice/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/practice/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/practice/MaxValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/practice/MaxValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/practice/MinValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/practice/MinValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/practice/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/practice/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/practice/TheReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/practice/TheReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/practice/ValueInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/practice/ValueInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +64,13 @@
       <recent name="$PROJECT_DIR$/src/ss1/exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.English">
-    <configuration name="DateOfMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1.practices.DateOfMonth" />
+  <component name="RunManager" selected="Application.Shape">
+    <configuration name="ArrayConnecting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.exercises.ArrayConnecting" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1.practices.*" />
+          <option name="PATTERN" value="ss3.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="English" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1.exercises.English" />
+    <configuration name="ArrayInserting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.exercises.ArrayInserting" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1.exercises.*" />
+          <option name="PATTERN" value="ss3.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1.exercises.Hello" />
+    <configuration name="MaxValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.exercises.MaxValue" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1.exercises.*" />
+          <option name="PATTERN" value="ss3.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1.practices.LinearEquation" />
+    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.exercises.Shape" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1.practices.*" />
+          <option name="PATTERN" value="ss3.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Money" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1.exercises.Money" />
+    <configuration name="ss3.exercises.MinValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.exercises.MinValue" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss1.exercises.*" />
+          <option name="PATTERN" value="ss3.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.English" />
-        <item itemvalue="Application.Money" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.DateOfMonth" />
-        <item itemvalue="Application.LinearEquation" />
+        <item itemvalue="Application.Shape" />
+        <item itemvalue="Application.ss3.exercises.MinValue" />
+        <item itemvalue="Application.MaxValue" />
+        <item itemvalue="Application.ArrayConnecting" />
+        <item itemvalue="Application.ArrayInserting" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
-      <workItem from="1688467254369" duration="1091000" />
+      <workItem from="1688467254369" duration="40585000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />
@@ -171,16 +183,39 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ss1/practices/Variable.java</url>
           <line>3</line>
-          <properties class="ss1.practices.Variable" method="main">
+          <properties class="ss1.practices.Variable">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss3/exercises/MinValue.java</url>
+          <line>5</line>
+          <properties class="ss3.exercises.MinValue" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss3/exercises/Shape.java</url>
+          <line>5</line>
+          <properties class="ss3.exercises.Shape" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ss1/exercises/Hello.java</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss3/exercises/ArrayDeleting.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
