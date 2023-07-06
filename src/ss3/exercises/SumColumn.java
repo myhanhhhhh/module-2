@@ -1,9 +1,8 @@
 package ss3.exercises;
 
-import javax.jws.soap.SOAPBinding;
 import java.util.Scanner;
 
-public class SumArray {
+public class SumColumn {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhap hang");
@@ -14,10 +13,9 @@ public class SumArray {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.println("nhap phan tu hang " + i + " cot " + j);
-                arr[i][j] = scanner.nextInt();
+                arr[i][j]= Integer.parseInt(scanner.nextLine());
             }
         }
-
         System.out.println("Mang co dang: ");
         for (int i = 0; i < arr.length; i++) {
             System.out.println(" ");
@@ -26,16 +24,16 @@ public class SumArray {
             }
         }
         System.out.println(" ");
-        System.out.println("ban muon tinh tong cot nao?");
-        int column = Integer.parseInt(scanner.nextLine());
-//        System.out.println(Sum(arr,column));
+        System.out.println("ban muon tinh tong cot nao? 0 < choice <= " + col);
+        int choice = Integer.parseInt(scanner.nextLine());
+        System.out.println(Sum(arr, choice));
     }
 
-//    public static int Sum(int arr[][],int column) {
-//        int sum = 0;
-//        for (int i = 0; i < arr.length; i++) {
-//                sum += arr[i][column];
-//            }
-//        return sum;
-//    }
+    public static int Sum(int arr[][], int choice) {
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i][choice];
+        }
+        return sum;
+    }
 }

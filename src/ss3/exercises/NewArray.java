@@ -3,7 +3,7 @@ package ss3.exercises;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ArrayConnecting {
+public class NewArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int arr1[] = {1, 2, 3, 4};

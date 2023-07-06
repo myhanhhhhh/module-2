@@ -7,10 +7,10 @@ public class MaxValue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhap cot");
-        int arr1 = scanner.nextInt();
+        int row = scanner.nextInt();
         System.out.println("nhap hang");
-        int arr2 = scanner.nextInt();
-        int arr[][] = new int[arr1][arr2];
+        int col = scanner.nextInt();
+        int arr[][] = new int[row][col];
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.println("nhap phan tu hang " + i + " cot " + j);
