@@ -24,12 +24,12 @@ public class SumColumn {
             }
         }
         System.out.println(" ");
-        System.out.println("ban muon tinh tong cot nao? 0 < choice <= " + col);
+        System.out.println("ban muon tinh tong cot nao? 0 < choice < " + col);
         int choice = Integer.parseInt(scanner.nextLine());
-        System.out.println(Sum(arr, choice));
+        System.out.println(sum(arr, choice));
     }
 
-    public static int Sum(int arr[][], int choice) {
+    public static int sum(int arr[][], int choice) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i][choice];

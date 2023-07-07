@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Shape {
     public static void main(String[] args) {
+        shapes();
+    }
+
+    public static void shapes() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("nhap do dai canh");
         int width = Integer.parseInt(scanner.nextLine());
@@ -28,4 +32,6 @@ public class Shape {
             System.out.println();
         }
     }
+
 }
+

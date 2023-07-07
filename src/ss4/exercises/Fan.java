@@ -4,12 +4,13 @@ public class Fan {
     final int slow = 1;
     final int medium = 2;
     final int fast = 3;
-    int speed = slow;
-    boolean on = false;
-    double radius = 5;
-    String color = "blue";
+     private int speed;
+    private boolean on;
+    private double radius;
+     private String color;
 
     public Fan() {
+        this(1,false,5,"blue");
     }
 
     public Fan(int speed, boolean on, double radius, String color) {

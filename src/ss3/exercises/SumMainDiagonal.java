@@ -23,13 +23,14 @@ public class SumMainDiagonal {
                 System.out.print(arr[i][j] + " ");
             }
         }
-        System.out.println("Tong duong cheo chinh: " + Sum(arr));
+        System.out.println("Tong 2 duong cheo : " + sum(arr));
     }
 
-    public static int Sum(int arr[][]) {
+    public static int sum(int arr[][]) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i][i];
+            sum += arr[i][(arr.length-1)-i];
         }
         return sum;
     }
