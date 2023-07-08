@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
-      <change afterPath="$PROJECT_DIR$/src/ss4/exercises/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/practice/StaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Circle/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Circle/MainCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Student/MainStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/practice/StaticProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/exercises/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/exercises/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/exercises/SumColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/exercises/SumColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/exercises/SumMainDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/exercises/SumMainDiagonal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss4/exercises/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/exercises/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4/exercises/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/exercises/QuadraticEquation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4/practice/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/practice/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss5/practice/StaticMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/practice/StaticMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,36 +38,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss1/exercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/myhanh/IdeaProjects/module-2/module-2/src/ss1/exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ss1/exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumMainDiagonal">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4.exercises.Demo" />
+  <component name="RunManager" selected="Application.MainStudent">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4.practice.Main" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4.exercises.*" />
+          <option name="PATTERN" value="ss4.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4.exercises.Fan" />
+    <configuration name="MainCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5.exercises.Circle.MainCircle" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4.exercises.*" />
+          <option name="PATTERN" value="ss5.exercises.Circle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="First20Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2.exercises.First20Prime" />
+    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5.exercises.Student.MainStudent" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss2.exercises.*" />
+          <option name="PATTERN" value="ss5.exercises.Student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeSmaller100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2.exercises.PrimeSmaller100" />
+    <configuration name="StaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5.practice.StaticProperty" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss2.exercises.*" />
+          <option name="PATTERN" value="ss5.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainStudent" />
+        <item itemvalue="Application.MainCircle" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StaticProperty" />
         <item itemvalue="Application.SumMainDiagonal" />
-        <item itemvalue="Application.Fan" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.PrimeSmaller100" />
-        <item itemvalue="Application.First20Prime" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
-      <workItem from="1688467254369" duration="81359000" />
+      <workItem from="1688467254369" duration="83220000" />
+      <workItem from="1688810089249" duration="7307000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />
@@ -207,6 +206,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss5/exercises/Circle/MainCircle.java</url>
+          <line>5</line>
+          <properties class="ss5.exercises.Circle.MainCircle" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ss1/exercises/Hello.java</url>
