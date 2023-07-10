@@ -1,6 +1,7 @@
 package ss6.exercises.point_moveablePoint;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Point {
     private float x;
@@ -31,7 +32,7 @@ public class Point {
         this.y = y;
     }
 
-    public void seetXY(float x, float y) {
+    public void setXY(float x, float y) {
         this.x = x;
         this.y = y;
     }

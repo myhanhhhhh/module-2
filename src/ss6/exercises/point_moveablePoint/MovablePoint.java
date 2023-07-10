@@ -21,19 +21,19 @@ public class MovablePoint extends Point {
         this.ySpeed = ySpeed;
     }
 
-    public float getxSpeed() {
+    public float getXSpeed() {
         return xSpeed;
     }
 
-    public void setxSpeed(float xSpeed) {
+    public void setXSpeed(float xSpeed) {
         this.xSpeed = xSpeed;
     }
 
-    public float getySpeed() {
+    public float getYSpeed() {
         return ySpeed;
     }
 
-    public void setySpeed(float ySpeed) {
+    public void setYSpeed(float ySpeed) {
         this.ySpeed = ySpeed;
     }
 
