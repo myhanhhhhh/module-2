@@ -1,23 +1,21 @@
 package ss6.exercises.point_moveablePoint;
 
-import sun.swing.StringUIClientPropertyKey;
-
 import java.util.Arrays;
 
-public class MoveablePoint extends Point {
+public class MovablePoint extends Point {
     private float xSpeed = 0;
     private float ySpeed = 0;
 
-    public MoveablePoint() {
+    public MovablePoint() {
 
     }
 
-    public MoveablePoint(float xSpeed, float ySpeed) {
+    public MovablePoint(float xSpeed, float ySpeed) {
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
 
-    public MoveablePoint(float x, float y, float xSpeed, float ySpeed) {
+    public MovablePoint(float x, float y, float xSpeed, float ySpeed) {
         super(x, y);
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
@@ -51,18 +49,18 @@ public class MoveablePoint extends Point {
         return arr1;
     }
 
-    public MoveablePoint move() {
+    public MovablePoint move() {
         super.setX(super.getX() + this.xSpeed);
-        super.setY(super.getY()+ this.ySpeed) ;
-        return  this;
+        super.setY(super.getY() + this.ySpeed);
+        return this;
     }
 
     @Override
     public String toString() {
-        return "MoveablePoint{" +
+        return "MovablePoint{" +
                 "xSpeed=" + xSpeed +
                 ", ySpeed=" + ySpeed +
-                ", point=" + super.getXY() +
+                ", point=" + Arrays.toString(super.getXY()) +
                 ", speed=" + Arrays.toString(getSpeed()) +
                 '}';
     }

@@ -1,2 +1,5 @@
-package ss6.practice;public class demo {
+package ss6.practice;
+
+public class demo {
+
 }

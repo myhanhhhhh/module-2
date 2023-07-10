@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
-      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Circle/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Circle/MainCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Student/MainStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/exercises/Student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/practice/StaticProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4/exercises/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/exercises/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss5/practice/StaticMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/practice/StaticMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/exercises/circle_cylinder/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/exercises/circle_cylinder/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/exercises/circle_cylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/exercises/circle_cylinder/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/exercises/circle_cylinder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/exercises/circle_cylinder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/exercises/point_moveablePoint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/exercises/point_moveablePoint/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/exercises/point_moveablePoint/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/exercises/point_moveablePoint/MovablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/exercises/point_moveablePoint/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/exercises/point_moveablePoint/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/practice/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/practice/demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +61,7 @@
       <recent name="$PROJECT_DIR$/src/ss1/exercises" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainStudent">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4.practice.Main" />
-      <module name="module-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss4.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ss6.exercises.point_moveablePoint.Main">
     <configuration name="MainCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss5.exercises.Circle.MainCircle" />
       <module name="module-2" />
@@ -101,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.practice.StaticProperty" />
+    <configuration name="ss6.exercises.circle_cylinder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.exercises.circle_cylinder.Main" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.practice.*" />
+          <option name="PATTERN" value="ss6.exercises.circle_cylinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumMainDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.exercises.SumMainDiagonal" />
+    <configuration name="ss6.exercises.point2d_point3d.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.exercises.point2d_point3d.Main" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3.exercises.*" />
+          <option name="PATTERN" value="ss6.exercises.point2d_point3d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss6.exercises.point_moveablePoint.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.exercises.point_moveablePoint.Main" />
+      <module name="module-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss6.exercises.point_moveablePoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss6.exercises.point_moveablePoint.Main" />
+        <item itemvalue="Application.ss6.exercises.point2d_point3d.Main" />
+        <item itemvalue="Application.ss6.exercises.circle_cylinder.Main" />
         <item itemvalue="Application.MainStudent" />
         <item itemvalue="Application.MainCircle" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StaticProperty" />
-        <item itemvalue="Application.SumMainDiagonal" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,7 @@
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
       <workItem from="1688467254369" duration="83220000" />
-      <workItem from="1688810089249" duration="7307000" />
+      <workItem from="1688810089249" duration="30472000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />
