@@ -1,0 +1,2 @@
+package ss6.exercises.circle_cylinder;public class Circle {
+}
