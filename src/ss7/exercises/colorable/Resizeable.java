@@ -1,2 +1,5 @@
-package ss7.exercises.colorable;public class Resizeable {
+package ss7.exercises.colorable;
+
+public interface Resizeable {
+    void resize(double percent);
 }

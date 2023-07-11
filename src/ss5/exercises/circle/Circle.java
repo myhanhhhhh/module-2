@@ -1,4 +1,4 @@
-package ss5.exercises.Circle;
+package ss5.exercises.circle;
 
 public class Circle {
     private double radius = 1 ;

@@ -1,4 +1,4 @@
-package ss5.exercises.Circle;
+package ss5.exercises.circle;
 
 import java.util.Scanner;
 

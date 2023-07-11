@@ -12,7 +12,7 @@ public class SumColumn {
         int arr[][] = new int[row][col];
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.println("nhap phan tu hang " + i + " cot " + j);
+                System.out.printf("nhap phan tu hang %d, cot %d", i,j );
                 arr[i][j]= Integer.parseInt(scanner.nextLine());
             }
         }
