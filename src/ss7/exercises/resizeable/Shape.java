@@ -1,6 +1,6 @@
 package ss7.exercises.resizeable;
 
-public class Shape extends Colorable {
+public class Shape implements Resizeable{
     private String color;
     private boolean filled;
 
@@ -37,7 +37,8 @@ public class Shape extends Colorable {
                 '}';
     }
 
-    public void howToColor() {
+    @Override
+    public void resize(double percent) {
 
     }
 }

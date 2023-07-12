@@ -1,6 +1,6 @@
-package ss7.exercises.colorable;
+package ss7.exercises.resizeable;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements Resizeable {
     private double height;
     private double width;
 
@@ -50,7 +50,9 @@ public class Rectangle extends Shape {
                 '}';
     }
 
+    @Override
     public void resize(double percent) {
+        super.resize(percent);
         setHeight(this.height += percent);
         setWidth(this.width += width);
     }

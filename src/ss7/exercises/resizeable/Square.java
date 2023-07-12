@@ -1,6 +1,6 @@
 package ss7.exercises.resizeable;
 
-public class Square extends Shape {
+public class Square extends Shape implements Resizeable {
     double side;
 
     public Square() {
@@ -35,7 +35,9 @@ public class Square extends Shape {
                 '}';
     }
 
-    public void howToColor() {
-        System.out.println("Color all four sides");
+    @Override
+    public void resize(double percent) {
+        super.resize(percent);
+        setSide(this.side += percent);
     }
 }

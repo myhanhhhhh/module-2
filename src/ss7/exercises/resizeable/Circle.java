@@ -1,6 +1,6 @@
-package ss7.exercises.colorable;
+package ss7.exercises.resizeable;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements Resizeable {
     private double radius;
 
     public Circle() {
@@ -32,7 +32,10 @@ public class Circle extends Shape {
                 '}';
     }
 
+    @Override
     public void resize(double percent) {
+        super.resize(percent);
         setRadius(this.radius += percent);
     }
+
 }

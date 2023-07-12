@@ -1,6 +1,6 @@
-package ss7.exercises.colorable;
+package ss7.exercises.resizeable;
 
-public class Square extends Shape {
+public class Square extends Shape implements Colorable {
     double side;
 
     public Square() {
@@ -34,7 +34,8 @@ public class Square extends Shape {
                 " lop con cua " + super.toString() +
                 '}';
     }
-    public void resize(double percent) {
-        setSide(this.side += percent);
+
+    public void howToColor() {
+        System.out.println("Color all four sides");
     }
 }
