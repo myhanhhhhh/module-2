@@ -7,7 +7,6 @@ public class TenisGame {
     public static final char THREEPOINT = 3;
     public static final char IMPORTANTPOINT = 4;
 
-
     public static String showEqualsPoint(int player1Score) {
         String total = "";
         switch (player1Score) {
@@ -26,7 +25,6 @@ public class TenisGame {
             default:
                 total = "Deuce";
                 break;
-
         }
         return total;
     }
@@ -78,12 +76,10 @@ public class TenisGame {
                         total += "Forty";
                         break;
                 }
-
             }
         }
         return total;
     }
-
 }
 
 
