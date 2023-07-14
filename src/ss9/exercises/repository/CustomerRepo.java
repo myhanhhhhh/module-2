@@ -1,41 +1,52 @@
 package ss9.exercises.repository;
 
+import com.sun.org.apache.bcel.internal.generic.SIPUSH;
 import ss9.exercises.model.Customer;
 
-public class CustomerRepo1 implements ICustomerRepo {
-    private static Customer[] customerlist = new Customer[3];
-    private int size = 0;
+import java.util.ArrayList;
+import java.util.List;
+
+public class CustomerRepo implements ICustomerRepo {
+    static ArrayList<Customer> customerList = new ArrayList<>();
+
 
     static {
-        customerlist[0] = new Customer(1, "A", 10, "nho");
-        customerlist[1] = new Customer(2, "B", 20, "nho");
-        customerlist[2] = new Customer(3, "C", 30, "lon");
+        Customer customer1 = new Customer(1, "Hanh", 20, "vang");
+        Customer customer2 = new Customer(2, "Lien", 20, "kim cuong");
+        Customer customer3 = new Customer(3, "Viet", 25, "bac");
+        Customer customer4 = new Customer(4, "Hau", 19, "bac");
+        customerList.add(customer1);
+        customerList.add(customer2);
+        customerList.add(customer3);
+        customerList.add(customer4);
+        customerList.size();
     }
 
     @Override
-    public Customer[] display() {
-        return customerlist;
+    public List<Customer> display() {
+        return customerList;
     }
 
-    @Override
     public void addCustomer(Customer customer) {
-        customerlist[size] = customer;
-        size++;
+        customerList.add(customer);
     }
 
     @Override
-    public boolean deleteCustomer(int id) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Bạn có chắn chắn muốn xoá ID " + id + " Của Học Viên Không :" +
-                "\n1.Có" +
-                "\n2.Không");
-        int check = Integer.parseInt(scanner.nextLine());
-        if (check == 1) {
-            for (int i = 0; i < students.size(); i++) {
-                if (id == students.get(i).getId()) {
-                    students.remove(i);
-                }
+    public void removeCustomer(int Customer) {
+        for (int i = 0; i < customerList.size(); i++) {
+            if (Customer == customerList.get(i).getId()) {
+                customerList.remove(customerList.get(i));
             }
         }
     }
+
+    @Override
+    public void searchCustomer(String customer) {
+        for (int i = 0; i < customerList.size(); i++) {
+            if (customerList.get(i).getName().contains(customer)) {
+                System.out.println(customerList.get(i));
+            }
+        }
+    }
+
 }

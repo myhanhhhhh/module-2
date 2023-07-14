@@ -2,9 +2,15 @@ package ss9.exercises.repository;
 
 import ss9.exercises.model.Customer;
 
-public interface ICustomerRepository {
-    Customer[] display();
+import java.util.List;
+
+public interface ICustomerRepo {
+    List<Customer> display();
+
     void addCustomer(Customer customer);
-    void  deleteCustomer(Customer Customer);
+
+    void removeCustomer(int customer);
+    void searchCustomer(String customer);
+
 
 }
