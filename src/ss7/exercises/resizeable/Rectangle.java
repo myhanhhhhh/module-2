@@ -52,9 +52,8 @@ public class Rectangle extends Shape implements Resizeable {
 
     @Override
     public void resize(double percent) {
-        super.resize(percent);
-        setHeight(this.height += percent);
-        setWidth(this.width += width);
+        setHeight(this.height *= Math.sqrt(percent + 1));
+        setWidth(this.width = (this.width/this.height) *this.height);
     }
 }
 

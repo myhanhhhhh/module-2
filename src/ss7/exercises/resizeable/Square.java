@@ -37,7 +37,6 @@ public class Square extends Shape implements Resizeable {
 
     @Override
     public void resize(double percent) {
-        super.resize(percent);
-        setSide(this.side += percent);
+        setSide(this.side *= Math.sqrt(percent + 1));
     }
 }

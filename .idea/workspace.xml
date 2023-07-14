@@ -6,41 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss0_demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss0_demo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss0_demo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss0_demo/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss0_demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss0_demo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/exercises/SumColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/exercises/SumColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss5/exercises/circle/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/exercises/circle/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss5/exercises/circle/MainCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/exercises/circle/MainCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss5/exercises/student/MainStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/exercises/student/MainStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss5/exercises/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss5/exercises/student/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Colorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Colorable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Resizeable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Resizeable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Colorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Colorable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Rectangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/animal/AbstractAndInterfaceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/animal/AbstractAndInterfaceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/animal/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/animal/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/animal/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/animal/Tiger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/edible/Edible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/edible/Edible.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/fruit/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/fruit/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/fruit/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/fruit/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/fruit/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/fruit/Orange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/fruit/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/fruit/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/CircleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/CircleComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/CircleComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/CircleComparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/ComparableCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/ComparableCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/ComparableCircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/ComparableCircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/practice/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/practice/shape/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/practice/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/practice/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/practice/repository/IStudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/repository/IStudentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/practice/repository/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/repository/StudentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/practice/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/practice/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,36 +51,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/myhanh/IdeaProjects/module-2/module-2/src/ss1/exercises&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss9/practice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ss9/practice" />
+      <recent name="$PROJECT_DIR$/src/ss9/practice/model" />
+      <recent name="$PROJECT_DIR$/src/ss9/demo" />
       <recent name="$PROJECT_DIR$/src/ss1/exercises" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ss9.practice.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ss7.exercises.resizeable.Main">
-    <configuration name="CircleComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.practice.shape.CircleComparatorTest" />
+  <component name="RunManager" selected="Application.CustomerController">
+    <configuration name="CustomerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss9.exercises.controller.CustomerController" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7.practice.shape.*" />
+          <option name="PATTERN" value="ss9.exercises.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparableCircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.practice.shape.ComparableCircleTest" />
+    <configuration name="TestMyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.exercises.TestMyList" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7.practice.shape.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss0_demo.Main" />
-      <module name="module-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss0_demo.*" />
+          <option name="PATTERN" value="ss10.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ss9.practice.controller.StudentController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss9.practice.controller.StudentController" />
+      <module name="module-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss9.practice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerController" />
+        <item itemvalue="Application.TestMyList" />
+        <item itemvalue="Application.ss9.practice.controller.StudentController" />
         <item itemvalue="Application.ss7.exercises.resizeable.Main" />
         <item itemvalue="Application.ss7.exercises.colorable.Main" />
-        <item itemvalue="Application.ComparableCircleTest" />
-        <item itemvalue="Application.CircleComparatorTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +166,7 @@
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
       <workItem from="1688467254369" duration="83220000" />
-      <workItem from="1688810089249" duration="55978000" />
+      <workItem from="1688810089249" duration="129939000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />
@@ -245,13 +236,31 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ss7/exercises/resizeable/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/ss7/exercises/colorable/Main.java</url>
           <line>3</line>
-          <properties class="ss7.exercises.resizeable.Main" method="main">
+          <properties class="ss7.exercises.colorable.Main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss9/controller/StudentController.java</url>
+          <line>12</line>
+          <properties class="ss9.controller.StudentController" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss10/exercises/TestMyList.java</url>
+          <line>21</line>
+          <properties class="ss10.exercises.TestMyList" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ss1/exercises/Hello.java</url>

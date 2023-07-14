@@ -1,4 +1,4 @@
-package ss7.exercises.resizeable;
+package ss7.exercises.colorable;
 
 public class Square extends Shape implements Colorable {
     double side;

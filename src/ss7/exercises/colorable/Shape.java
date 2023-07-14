@@ -1,4 +1,4 @@
-package ss7.exercises.resizeable;
+package ss7.exercises.colorable;
 
 public class Shape {
     private String color;
@@ -35,9 +35,5 @@ public class Shape {
                 "color='" + color + '\'' +
                 ", filled=" + filled +
                 '}';
-    }
-
-    public void howToColor() {
-
     }
 }
