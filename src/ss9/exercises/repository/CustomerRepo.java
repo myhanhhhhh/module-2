@@ -2,7 +2,7 @@ package ss9.exercises.repository;
 
 import ss9.exercises.model.Customer;
 
-public class CustomerRepository implements ICustomerRepository {
+public class CustomerRepo1 implements ICustomerRepo {
     private static Customer[] customerlist = new Customer[3];
     private int size = 0;
 
@@ -12,14 +12,9 @@ public class CustomerRepository implements ICustomerRepository {
         customerlist[2] = new Customer(3, "C", 30, "lon");
     }
 
-
     @Override
     public Customer[] display() {
-        Customer[] customers = new Customer[size];
-        for (int i = 0; i < size; i++) {
-            customers[i] = customerlist[i];
-        }
-        return customers;
+        return customerlist;
     }
 
     @Override
@@ -29,7 +24,18 @@ public class CustomerRepository implements ICustomerRepository {
     }
 
     @Override
-    public void deleteCustomer(Customer Customer) {
-
+    public boolean deleteCustomer(int id) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Bạn có chắn chắn muốn xoá ID " + id + " Của Học Viên Không :" +
+                "\n1.Có" +
+                "\n2.Không");
+        int check = Integer.parseInt(scanner.nextLine());
+        if (check == 1) {
+            for (int i = 0; i < students.size(); i++) {
+                if (id == students.get(i).getId()) {
+                    students.remove(i);
+                }
+            }
+        }
     }
 }
