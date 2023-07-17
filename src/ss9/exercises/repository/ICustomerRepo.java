@@ -2,6 +2,7 @@ package ss9.exercises.repository;
 
 import ss9.exercises.model.Customer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public interface ICustomerRepo {
@@ -10,7 +11,7 @@ public interface ICustomerRepo {
     void addCustomer(Customer customer);
 
     void removeCustomer(int customer);
-    void searchCustomer(String customer);
+    List<Customer> searchCustomer(String customer);
 
 
 }

@@ -11,15 +11,10 @@ public class CustomerRepo implements ICustomerRepo {
 
 
     static {
-        Customer customer1 = new Customer(1, "Hanh", 20, "vang");
-        Customer customer2 = new Customer(2, "Lien", 20, "kim cuong");
-        Customer customer3 = new Customer(3, "Viet", 25, "bac");
-        Customer customer4 = new Customer(4, "Hau", 19, "bac");
-        customerList.add(customer1);
-        customerList.add(customer2);
-        customerList.add(customer3);
-        customerList.add(customer4);
-        customerList.size();
+        customerList.add(new Customer(1, "Hanh", 20, "vang"));
+        customerList.add(new Customer(1, "Lien", 20, "kim cuongng"));
+        customerList.add(new Customer(1, "Viet", 25, "vang"));
+        customerList.add(new Customer(1, "Hau", 19, "bac"));
     }
 
     @Override
@@ -41,12 +36,8 @@ public class CustomerRepo implements ICustomerRepo {
     }
 
     @Override
-    public void searchCustomer(String customer) {
-        for (int i = 0; i < customerList.size(); i++) {
-            if (customerList.get(i).getName().contains(customer)) {
-                System.out.println(customerList.get(i));
-            }
-        }
+    public List<Customer> searchCustomer(String customer) {
+        List<Customer> customerSearchList = display();
+        return customerSearchList;
     }
-
 }

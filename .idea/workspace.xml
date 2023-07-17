@@ -5,26 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
+      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/bracket/Bracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/convert/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/convert/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/palindrome/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/reverse/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/reverse/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/practice/linkedList/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/practice/linkedList/MyGenericStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/practice/queue/LinkedListQueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/practice/queue/MyLinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11/practice/queue/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Colorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Colorable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/colorable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/colorable/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/exercises/resizeable/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/repository/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/repository/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/repository/ICustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/repository/ICustomerRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9/exercises/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss9/exercises/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/service/ICustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/practice/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/practice/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/practice/repository/IStudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/repository/IStudentRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/practice/repository/StudentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/repository/StudentRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/practice/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/service/IStudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/practice/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/practice/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +73,24 @@
       <recent name="$PROJECT_DIR$/src/ss1/exercises" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ss11.exercises.Reverse" />
       <recent name="ss9.practice.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomerController">
+  <component name="RunManager" selected="Application.Bracket">
+    <configuration name="Bracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11.exercises.bracket.Bracket" />
+      <module name="module-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss11.exercises.bracket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss9.exercises.controller.CustomerController" />
       <module name="module-2" />
@@ -94,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10.exercises.TestMyList" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11.exercises.palindrome.Palindrome" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10.exercises.*" />
+          <option name="PATTERN" value="ss11.exercises.palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss7.exercises.colorable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.exercises.colorable.Main" />
+    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11.exercises.reverse.ReverseNumber" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7.exercises.colorable.*" />
+          <option name="PATTERN" value="ss11.exercises.reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,25 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss7.exercises.resizeable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.exercises.resizeable.Main" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11.exercises.reverse.ReverseString" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7.exercises.resizeable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ss9.practice.controller.StudentController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss9.practice.controller.StudentController" />
-      <module name="module-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss9.practice.controller.*" />
+          <option name="PATTERN" value="ss11.exercises.reverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bracket" />
+        <item itemvalue="Application.ReverseNumber" />
         <item itemvalue="Application.CustomerController" />
-        <item itemvalue="Application.TestMyList" />
-        <item itemvalue="Application.ss9.practice.controller.StudentController" />
-        <item itemvalue="Application.ss7.exercises.resizeable.Main" />
-        <item itemvalue="Application.ss7.exercises.colorable.Main" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +163,7 @@
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
       <workItem from="1688467254369" duration="83220000" />
-      <workItem from="1688810089249" duration="129939000" />
+      <workItem from="1688810089249" duration="158129000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />
@@ -247,20 +244,20 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ss9/controller/StudentController.java</url>
           <line>12</line>
-          <properties class="ss9.controller.StudentController" method="main">
+          <properties class="ss9.controller.StudentController">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ss10/exercises/TestMyList.java</url>
-          <line>21</line>
-          <properties class="ss10.exercises.TestMyList" method="main">
+          <url>file://$PROJECT_DIR$/src/ss11/exercises/reverse/ReverseString.java</url>
+          <line>6</line>
+          <properties class="ss11.exercises.reverse.ReverseString" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ss1/exercises/Hello.java</url>
@@ -281,6 +278,11 @@
           <url>file://$PROJECT_DIR$/src/ss3/practice/MaxValue.java</url>
           <line>9</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss11/exercises/bracket/Bracket.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

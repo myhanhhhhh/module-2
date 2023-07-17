@@ -1,21 +1,24 @@
-package ss11.exercises;
+package ss11.exercises.reverse;
 
+import java.util.Scanner;
 import java.util.Stack;
 
-public class Reverse {
+public class ReverseNumber {
     public static void main(String[] args) {
-        Stack<Integer> myStack = new Stack<>();
-        myStack.push(1);
-        myStack.push(2);
-        myStack.push(3);
-        myStack.push(4);
-//        System.out.println(myStack);
+        Stack<String> myStack = new Stack<>();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("nhap so vao de kiem tra");
+        String number = scanner.nextLine();
+        String arr[] = number.split("");
+        for (int i = 0; i < arr.length; i++) {
+            myStack.push(arr[i]);
+        }
         System.out.println("truoc khi dao nguoc: ");
-        for (int element: myStack) {
-            System.out.println( element);
+        for (String element : myStack) {
+            System.out.println(element);
         }
         System.out.println("sau khi dao nguoc: ");
-        while (!myStack.isEmpty()){
+        while (!myStack.isEmpty()) {
             System.out.println(myStack.pop());
         }
     }

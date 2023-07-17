@@ -4,6 +4,9 @@ import ss9.exercises.model.Customer;
 import ss9.exercises.repository.CustomerRepo;
 import ss9.exercises.repository.ICustomerRepo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static ss9.practice.controller.StudentController.scanner;
 
 public class CustomerService implements ICustomerService {
@@ -41,7 +44,12 @@ public class CustomerService implements ICustomerService {
     public void searchCustomer() {
         System.out.println("enter name");
         String enterName = scanner.nextLine();
-        repository.searchCustomer(enterName);
+        List<Customer> customerSearchList = repository.display();
+        for (int i = 0; i < customerSearchList.size(); i++) {
+            if (customerSearchList.get(i).getName().contains(enterName)) {
+                System.out.println(customerSearchList.get(i));
+            }
+        }
     }
 }
 
