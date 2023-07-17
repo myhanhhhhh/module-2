@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
-      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/bracket/Bracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/convert/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/convert/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/palindrome/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/reverse/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/exercises/reverse/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/practice/linkedList/GenericStackClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/practice/linkedList/MyGenericStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/practice/queue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/practice/queue/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/practice/queue/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/repository/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/repository/CustomerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/repository/ICustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/repository/ICustomerRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss9/exercises/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss9/exercises/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11/exercises/convert/B.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +148,7 @@
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
       <workItem from="1688467254369" duration="83220000" />
-      <workItem from="1688810089249" duration="158129000" />
+      <workItem from="1688810089249" duration="158436000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />
@@ -281,7 +266,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ss11/exercises/bracket/Bracket.java</url>
-          <line>20</line>
+          <line>19</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
