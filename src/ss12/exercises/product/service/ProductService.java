@@ -57,7 +57,6 @@ public class ProductService implements IProductService {
         for (int i = 0; i < productSearchList.size(); i++) {
             if (productSearchList.get(i).getName().contains(enterName)) {
                 System.out.println(productSearchList.get(i));
-                break;
             }
         }
     }
