@@ -1,14 +1,12 @@
 package ss12.exercises.tree_map;
 
-import java.security.Key;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class TreeMap {
     public static void main(String[] args) {
-        Map<String, Integer> myMap = new java.util.TreeMap<>();
+        Map<String, Integer> myMap = new HashMap<>();
         String string = "Everytime i look at my parents, i give myself a million reasons to be successfull";
         String value = string.toLowerCase();
         String arr[] = value.split(" ");
@@ -20,11 +18,8 @@ public class TreeMap {
                 myMap.put(element, 1);
             }
         }
-        for (Map.Entry<String, Integer> element : myMap.entrySet()){
-            System.out.println("tu: " + element.getKey() + " xuat hien "+ element.getValue() + " lan");
+        for (Map.Entry<String, Integer> element : myMap.entrySet()) {
+            System.out.println("tu " + element.getKey() + " xuat hien " + element.getValue() + " lan");
         }
     }
-
-
-
 }
