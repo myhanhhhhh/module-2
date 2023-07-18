@@ -12,6 +12,4 @@ public interface ICustomerRepo {
 
     void removeCustomer(int customer);
     List<Customer> searchCustomer(String customer);
-
-
 }

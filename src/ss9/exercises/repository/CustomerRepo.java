@@ -9,12 +9,12 @@ import java.util.List;
 public class CustomerRepo implements ICustomerRepo {
     static ArrayList<Customer> customerList = new ArrayList<>();
 
-
     static {
         customerList.add(new Customer(1, "Hanh", 20, "vang"));
         customerList.add(new Customer(1, "Lien", 20, "kim cuongng"));
         customerList.add(new Customer(1, "Viet", 25, "vang"));
         customerList.add(new Customer(1, "Hau", 19, "bac"));
+
     }
 
     @Override

@@ -35,7 +35,7 @@ public class CustomerService implements ICustomerService {
 
     @Override
     public void removeCustomer() {
-        System.out.println("enter ID, you want to remove");
+        System.out.println("enter ID");
         int enterId = Integer.parseInt(scanner.nextLine());
         repository.removeCustomer(enterId);
     }

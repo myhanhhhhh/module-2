@@ -17,6 +17,9 @@ public class Customer {
         this.typeCustomer = typeCustomer;
     }
 
+    public Customer(int enterId, String enterName, int enterPrice) {
+    }
+
     public int getId() {
         return id;
     }

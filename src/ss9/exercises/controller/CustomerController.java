@@ -34,6 +34,7 @@ public class CustomerController {
                     break;
                 case 4:
                     service.searchCustomer();
+                    break;
                 case  9:
                     System.exit(0);
             }

@@ -10,7 +10,6 @@ public class Bracket {
         System.out.println("nhap ki tu vao de kiem tra");
         String str = scanner.nextLine();
         String[] string = str.split("");
-//        System.out.println(Arrays.toString(string));
         Stack<String> stack1 = new Stack<>();
         Stack<String> stack2 = new Stack<>();
         String sym1 = "(";
@@ -25,7 +24,7 @@ public class Bracket {
                 break;
             } else {
                 if (string[i].equals(sym2)) {
-                    stack2.push(sym2);
+                    stack2.push(string[i]);
                 }
             }
         }

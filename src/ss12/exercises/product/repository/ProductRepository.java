@@ -7,7 +7,7 @@ import ss12.exercises.product.model.SortDownProduct;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PoductRepository implements IProductRepository {
+public class ProductRepository implements IProductRepository {
     static ArrayList<Product> productList = new ArrayList<>();
 
     static {
