@@ -1,4 +1,4 @@
-package ss13;
+package ss13.exercises;
 
 import java.util.ArrayList;
 import java.util.List;
