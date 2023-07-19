@@ -12,8 +12,8 @@ public class ProductRepository implements IProductRepository {
 
     static {
         productList.add(new Product(1, "iphone", 5000));
-        productList.add(new Product(2, "samsung", 4000));
-        productList.add(new Product(3, "nokia", 3000));
+        productList.add(new Product(2, "samsung", 3000));
+        productList.add(new Product(3, "nokia", 4000));
     }
 
     @Override
@@ -52,12 +52,16 @@ public class ProductRepository implements IProductRepository {
     }
 
     @Override
-    public void sortUpProduct() {
+    public List<Product> sortUpProduct() {
+        List<Product> sortedProductList = new ArrayList<>(productList);
         productList.sort(new SortUpProduct());
+        return sortedProductList;
     }
 
     @Override
-    public void sortDownProduct() {
-        productList.sort(new SortDownProduct());
+    public List<Product> sortDownProduct() {
+        List<Product> sortedProductList = new ArrayList<>(productList);
+        sortedProductList.sort(new SortDownProduct());
+        return sortedProductList;
     }
 }

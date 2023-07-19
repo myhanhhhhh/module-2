@@ -16,8 +16,8 @@ public interface IProductRepository {
 
     List<Product> searchProduct(String prodcut);
 
-    void sortUpProduct();
+    List<Product> sortUpProduct();
 
-    void sortDownProduct();
+    List<Product> sortDownProduct();
 
 }
