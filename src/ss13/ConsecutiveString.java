@@ -3,18 +3,20 @@ package ss13;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class AscendingString {
+public class ConsecutiveString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("nhap tu vao day de kiem tra");
+        System.out.println("nhap chuoi vao kiem tra");
         String string = scanner.nextLine();
         LinkedList<Character> max = new LinkedList<>();
+        LinkedList<Character> list = new LinkedList<>();
         for (int i = 0; i < string.length(); i++) {
-            LinkedList<Character> list = new LinkedList<>();
             list.add(string.charAt(i));
             for (int j = i + 1; j < string.length(); j++) {
                 if (string.charAt(j) > list.getLast()) {
                     list.add(string.charAt(j));
+                } else {
+                    break;
                 }
             }
             if (list.size() > max.size()) {
@@ -24,7 +26,8 @@ public class AscendingString {
             list.clear();
         }
         for (Character element : max)
-        System.out.print(element);
+            System.out.print(element);
     }
 }
+
 
