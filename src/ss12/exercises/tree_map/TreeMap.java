@@ -18,8 +18,8 @@ public class TreeMap {
                 myMap.put(element, 1);
             }
         }
-        for (Map.Entry<String, Integer> element : myMap.entrySet()) {
-            System.out.println("tu " + element.getKey() + " xuat hien " + element.getValue() + " lan");
+        for (String key : myMap.keySet()) {
+            System.out.println(key + " xuat hien " + myMap.get(key) + " lan ");
         }
     }
 }
