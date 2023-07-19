@@ -46,7 +46,7 @@ public class ProductRepository implements IProductRepository {
     }
 
     @Override
-    public List<Product> searchProduct(String prodcut) {
+    public List<Product> searchProduct(String product) {
         List<Product> productSearchList = display();
         return productSearchList;
     }

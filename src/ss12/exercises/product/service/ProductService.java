@@ -63,11 +63,16 @@ public class ProductService implements IProductService {
 
     @Override
     public void sortUpProduct() {
-        repository.sortUpProduct();
+        for (Product product : repository.sortDownProduct()) {
+            System.out.println(product);
+        }
     }
 
     @Override
     public void sortDownProduct() {
-        repository.sortDownProduct();
+        for (Product product : repository.sortDownProduct()) {
+            System.out.println(product);
+        }
     }
+
 }
