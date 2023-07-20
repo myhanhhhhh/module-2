@@ -47,7 +47,7 @@ public class IllustrateInsertionSort {
             result(array);
             System.out.println("--------------------------");
         }
-        System.out.println("mang sau khi sap xep");
+        System.out.println("mang sau khi duoc sap xep");
         result(array);
     }
 
