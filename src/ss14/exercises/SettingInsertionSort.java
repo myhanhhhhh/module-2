@@ -35,7 +35,6 @@ public class SettingInsertionSort {
         for (int num : array) {
             System.out.println(num);
         }
-
     }
 }
 
