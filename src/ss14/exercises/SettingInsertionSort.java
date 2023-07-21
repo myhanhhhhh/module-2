@@ -14,26 +14,23 @@ public class SettingInsertionSort {
         }
         System.out.println("mang cua ban: ");
         for (int i : arr) {
-            System.out.println(i);
+            System.out.print(i +"\t");
         }
         System.out.println("mang sau khi sap xep");
         insertionSort(arr);
     }
 
     public static void insertionSort(int[] array) {
-        int x;
-        int position;
         for (int i = 1; i < array.length; i++) {
-            x = array[i];
-            position = i;
-            while (position > 0 && x < array[position - 1]) {
-                array[position] = array[position - 1];
-                position--;
+            int x = array[i];
+            int position = i;
+            for (; position > 0 && array[position-1] > x; position--) {
+                array[position] = array[position-1];
             }
             array[position] = x;
         }
         for (int num : array) {
-            System.out.println(num);
+            System.out.print(num +"\t");
         }
     }
 }
