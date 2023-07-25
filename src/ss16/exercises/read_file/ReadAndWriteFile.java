@@ -48,10 +48,11 @@ public class ReadAndWriteFile {
     }
 
     public static void main(String[] args) {
-        String input = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/read_file/file.csv";
-        String output = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/read_file/write.csv";
-        List<String> stringList = readFile(input);
+        String sourceFile = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/read_file/source.csv";
+        String targetFile = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/read_file/target.csv";
+        List<String> stringList = readFile(sourceFile);
         System.out.print(stringList);
-        writeFile(output,stringList,false);
+        writeFile(targetFile,stringList,false);
     }
 }
+
