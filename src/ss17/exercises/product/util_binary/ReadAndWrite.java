@@ -1,4 +1,4 @@
-package ss17.exercises.product.utils;
+package ss17.exercises.product.util_binary;
 
 import ss17.exercises.product.model.Product;
 import ss17.exercises.product.repository.ProductRepo;
@@ -38,15 +38,5 @@ public class ReadAndWrite {
             throw new RuntimeException(e);
         }
         return productList;
-    }
-
-    public static void main(String[] args) {
-        ProductRepo productRepo = new ProductRepo();
-//        writeObjectList(productRepo.display());
-
-        List<Product> productList = readOject();
-        for (Product product : productList) {
-            System.out.println(product);
-        }
     }
 }
