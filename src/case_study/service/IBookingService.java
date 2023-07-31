@@ -1,2 +1,4 @@
-package case_study.service;public interface IBookingService {
+package case_study.service;
+
+public interface IBookingService {
 }

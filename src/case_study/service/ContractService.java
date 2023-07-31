@@ -1,2 +1,4 @@
-package case_study.service;public class ContractService {
+package case_study.service;
+
+public class ContractService {
 }

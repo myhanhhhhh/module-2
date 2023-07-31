@@ -1,19 +1,60 @@
-package case_study.service.class_service;
+package case_study.service;
 
+import case_study.common.IdAvailable;
+import case_study.common.IdNotFound;
 import case_study.common.Regex;
 import case_study.model.person.Employee;
-import case_study.repository.class_repository.EmployeeRepo;
-import case_study.repository.interface_repository.IEmployeeRepo;
-import case_study.service.interface_service.IEmployeeService;
-import ss17.exercises.product.view.View;
-import ss9.practice.controller.StudentController;
+import case_study.repository.EmployeeRepo;
+import case_study.repository.IEmployeeRepo;
 
 import java.util.List;
+import java.util.Objects;
 
 import static case_study.controller.FuramaController.scanner;
 
 public class EmployeeService implements IEmployeeService {
     private IEmployeeRepo repository = new EmployeeRepo();
+
+    public static String[] checkInformation() {
+        String name;
+        do {
+            System.out.println("enter name");
+            name = scanner.nextLine();
+        } while (!Regex.validateName(name));
+        Regex.validateName(name);
+        String dateOfBirth;
+        do {
+            System.out.println("enter dateOfBirth");
+            dateOfBirth = scanner.nextLine();
+        } while (!Regex.validateDateOfBirth(dateOfBirth));
+        Regex.validateDateOfBirth(dateOfBirth);
+        String gender;
+        do {
+            System.out.println("enter gender");
+            gender = scanner.nextLine();
+        } while (Regex.validateDateOfBirth(gender));
+        Regex.validateDateOfBirth(gender);
+        String identity;
+        do {
+            System.out.println("enter identity");
+            identity = scanner.nextLine();
+        } while (!Regex.validateIdentity(identity));
+        Regex.validateIdentity(identity);
+        String phoneNumber;
+        do {
+            System.out.println("enter phoneNumber");
+            phoneNumber = scanner.nextLine();
+        } while (!Regex.validatePhoneNumber(phoneNumber));
+        Regex.validatePhoneNumber(phoneNumber);
+        System.out.println("enter email");
+        String email = scanner.nextLine();
+        String level = Regex.checkLevelEmployee();
+        System.out.println("enter position");
+        String position = scanner.nextLine();
+        int salary = Regex.ValidateSalaryEmployee();
+        String array[] = {name, dateOfBirth, gender, identity, phoneNumber, email, level, position, String.valueOf(salary)};
+        return array;
+    }
 
     @Override
 
@@ -24,49 +65,97 @@ public class EmployeeService implements IEmployeeService {
         }
     }
 
-    public static String[] checkInformation() {
-        String name = Regex.validateName();
-        String dateOfBirth = Regex.validateDateOfBirth();
-        System.out.println("enter gender");
-        String gender = scanner.nextLine();
-        String identity = Regex.validateIdentity();
-        String phoneNumber = Regex.validatePhoneNumber();
-        System.out.println("enter email");
-        String email = scanner.nextLine();
-        System.out.println("enter level");
-        String level = scanner.nextLine();
-        System.out.println("enter position");
-        String position = scanner.nextLine();
-        String salary = Regex.ValidateSalaryEmployee();
-        String array[] = {name, dateOfBirth, gender, identity, phoneNumber, email, level, position, salary};
-        return array;
-    }
-
     @Override
     public void addEmployee() {
-        String id = Regex.validateIdEmployee();
-        String array[] = checkInformation();
-        Employee employee = new Employee(id, array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7], array[8]);
-        repository.addEmployee(employee);
+        do {
+            System.out.println("enter id");
+            String id;
+            do {
+                id = scanner.nextLine();
+            } while (!Regex.validateIdEmployee(id));
+            Regex.validateIdEmployee(id);
+            int index = repository.searchIndex(id);
+            try {
+                if (index == -1) {
+                    String array[] = checkInformation();
+                    Employee employee = new Employee(id, array[0], array[1], array[2], array[3], array[4], array[5],
+                            array[6], array[7], Integer.parseInt(array[8]));
+                    repository.addEmployee(employee);
+                    break;
+                } else {
+                    display();
+                    throw new IdAvailable();
+                }
+            } catch (IdAvailable e) {
+                System.out.println("ID already exist");
+            }
+        } while (true);
     }
 
     @Override
     public void editEmployee() {
-        String id = Regex.validateIdEmployee();
-        String array[] = checkInformation();
-        Employee employee = new Employee(id, array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7], array[8]);
-        repository.editEmployee(id, employee);
+        do {
+            System.out.println("enter id");
+            String id;
+            do {
+                id = scanner.nextLine();
+            } while (!Regex.validateIdEmployee(id));
+            Regex.validateIdEmployee(id);
+            int index = repository.searchIndex(id);
+            try {
+                if (index != -1) {
+                    String array[] = checkInformation();
+                    Employee employee = new Employee(id, array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7], Integer.parseInt(array[8]));
+                    repository.editEmployee(id, employee);
+                    break;
+                } else {
+                    throw new IdNotFound();
+                }
+            } catch (IdNotFound e) {
+                System.out.println("not found");
+            }
+        } while (true);
+
     }
 
     @Override
     public void deleteEmployee() {
-        String id = Regex.validateIdEmployee();
-        repository.deleteEmployee(id);
+        do {
+            System.out.println("enter id");
+            String id;
+            do {
+                id = scanner.nextLine();
+            } while (!Regex.validateIdEmployee(id));
+            Regex.validateIdEmployee(id);
+            int index = repository.searchIndex(id);
+            try {
+                if (index != -1) {
+                    System.out.println("do you want to delete" + "\n yes" + "\n no");
+                    String confirm = scanner.nextLine().trim();
+                    if (Objects.equals(confirm, "yes")) {
+                        repository.deleteEmployee(id);
+                        break;
+                    } else {
+                        System.out.println("cancel");
+                        break;
+                    }
+                } else {
+                    throw new IdNotFound();
+                }
+            } catch (IdNotFound e) {
+                System.out.println("not found");
+            }
+        } while (true);
     }
 
     @Override
     public void searchEmployee() {
-        String name = Regex.validateName();
+        String name;
+        do {
+            System.out.println("enter name");
+            name = scanner.nextLine();
+        } while (!Regex.validateName(name));
+        Regex.validateName(name);
         List<Employee> employeeSearchList = repository.searchEmployee(name);
         for (int i = 0; i < employeeSearchList.size(); i++) {
             if (employeeSearchList.get(i).getName().contains(name)) {

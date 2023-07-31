@@ -1,2 +1,4 @@
-package case_study.service;public interface IFaclityService {
+package case_study.service;
+
+public interface IFaclityService {
 }

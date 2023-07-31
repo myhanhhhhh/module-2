@@ -1,4 +1,4 @@
-package case_study.service.interface_service;
+package case_study.service;
 
 public interface ICustomerService {
     void display();

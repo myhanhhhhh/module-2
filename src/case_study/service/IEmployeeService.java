@@ -1,6 +1,6 @@
-package case_study.service.interface_service;
+package case_study.service;
 
-public interface IEmployeeService {
+public interface IEmployeeService   {
     void display();
     void addEmployee();
     void editEmployee();
