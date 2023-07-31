@@ -3,7 +3,7 @@ package ss16.practice;
 import java.io.*;
 import java.util.Scanner;
 
-public class Number {
+public class ReadFileExample {
     public void readFileText(String filePath) {
         FileReader fileReader = null;
         BufferedReader buff = null;
@@ -30,7 +30,7 @@ public class Number {
         System.out.println("nhap duong dan file");
         String path = scanner.nextLine();
 
-        N
-
+        ReadFileExample readFileExample = new ReadFileExample();
+        readFileExample.readFileText(path);
     }
 }

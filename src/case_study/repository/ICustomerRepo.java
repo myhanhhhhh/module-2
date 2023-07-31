@@ -1,4 +1,4 @@
-package case_study.repository.interface_repository;
+package case_study.repository;
 
 import case_study.model.person.Customer;
 
@@ -14,4 +14,5 @@ public interface ICustomerRepo {
     void deleteCustomer(String id);
 
     List<Customer> searchCustomer(String name);
+    int searchIndex(String id);
 }

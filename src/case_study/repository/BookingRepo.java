@@ -1,2 +1,4 @@
-package case_study.repository;public class IBookingRepo {
+package case_study.repository;
+
+public class BookingRepo {
 }

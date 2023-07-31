@@ -2,13 +2,12 @@ package ss17.exercises.product.repository;
 
 import ss17.exercises.product.model.Product;
 import ss17.exercises.product.util_character.ReadAndWrite;
-import ss9.exercises.model.Customer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ProductRepo implements IProductRepo {
-    private final String FILE_PATH = "/Users/myhanh/IdeaProjects/module-2/module-2 16.22.32/src/ss17/exercises/product/data/product.csv";
+    private final String FILE_PATH = "/Users/myhanh/IdeaProjects/module-2/module-2 16.22.32/src/ss17/exercises/product/case_study.data/product.csv";
 
     @Override
     public List<Product> display() {

@@ -25,8 +25,9 @@ public class ConsecutiveString {
             }
             list.clear();
         }
-        for (Character element : max)
+        for (Character element : max) {
             System.out.print(element);
+        }
     }
 }
 

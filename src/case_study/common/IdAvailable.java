@@ -1,2 +1,4 @@
-package case_study.common;public class IdAvailable {
+package case_study.common;
+
+public class IdAvailable extends Exception{
 }

@@ -6,15 +6,16 @@ import ss9.exercises.model.Customer;
 import java.util.List;
 
 public interface IProductRepository {
+
     List<Product> display();
 
     void addProduct(Product product);
 
     void editProduct(int id, Product product);
 
-    void removeProduct(int product);
+    void removeProduct(int id);
 
-    List<Product> searchProduct(String prodcut);
+    List<Product> searchProduct(String name);
 
     List<Product> sortUpProduct();
 

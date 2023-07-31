@@ -1,2 +1,4 @@
-package case_study.repository;public class ContractRepo {
+package case_study.repository;
+
+public class ContractRepo {
 }

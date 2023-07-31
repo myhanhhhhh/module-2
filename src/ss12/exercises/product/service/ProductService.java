@@ -53,7 +53,7 @@ public class ProductService implements IProductService {
     public void searchProduct() {
         System.out.println("enter name");
         String enterName = scanner.nextLine();
-        List<Product> productSearchList = repository.display();
+        List<Product> productSearchList = repository.searchProduct(enterName);
         for (int i = 0; i < productSearchList.size(); i++) {
             if (productSearchList.get(i).getName().contains(enterName)) {
                 System.out.println(productSearchList.get(i));
@@ -63,7 +63,7 @@ public class ProductService implements IProductService {
 
     @Override
     public void sortUpProduct() {
-        for (Product product : repository.sortDownProduct()) {
+        for (Product product : repository.sortUpProduct()) {
             System.out.println(product);
         }
     }
@@ -74,5 +74,4 @@ public class ProductService implements IProductService {
             System.out.println(product);
         }
     }
-
 }

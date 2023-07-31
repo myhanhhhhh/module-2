@@ -1,10 +1,5 @@
 package case_study.common;
 
-import case_study.repository.CustomerRepo;
-import case_study.repository.ICustomerRepo;
-
-import javax.jws.soap.SOAPBinding;
-
 import static case_study.controller.FuramaController.scanner;
 
 public class Regex {
@@ -13,116 +8,56 @@ public class Regex {
     private static final String REGEX_DATEOFBIRTH = "([0-2][0-9]|30|31)\\/([0-1][0-9]|10|11|12)\\/(200[0-5]|19[6-9][0-9])$";
     private static final String REGEX_IDENTITY = "^[0-9]{9}([0-9]{3})?$";
     private static final String REGEX_PHONENUMBER = "^0[0-9]{9}$";
-    //    private static final String REGEX_SALARY = "^([0-9])+?$";
     private static final String REGEX_ID_CUSTOMER = "KH-[0-9]{4}";
 
-    public static String checkIndex() {
-        ICustomerRepo iCustomerRepo = new CustomerRepo();
-        String idChecked = validateIdCustomer();
-        int index = iCustomerRepo.searchIndex(idChecked);
-        do {
-            if (index == -1) {
-                return checkIndex();
-            } else {
-                return idChecked;
-            }
-        } while (true);
-    }
-
-    public static String validateIdCustomer() {
-        boolean checkId;
-        String id;
-        System.out.println("enter id");
-        do {
-            id = scanner.nextLine();
-            checkId = id.matches(REGEX_ID_CUSTOMER);
-            if (checkId == false) {
-                System.out.println("please enter again");
-            } else {
-                ICustomerRepo iCustomerRepo = new CustomerRepo();
-                int index = iCustomerRepo.searchIndex(id);
-                do {
-                    if (index == -1) {
-                        return checkIndex();
-                    } else {
-                        return id;
-                    }
-                } while (true);
-            }
-        } while (checkId == false);
-        return id;
+    public static boolean validateIdCustomer(String id) {
+        boolean checkId = id.matches(REGEX_ID_CUSTOMER);
+        if (checkId == false) {
+            System.out.println("please enter again");
+        }
+        return checkId;
     }
 
 
-    public static String validateIdEmployee() {
-        boolean checkId;
-        String id;
-        System.out.println("enter id");
-        do {
-            id = scanner.nextLine();
-            checkId = id.matches(REGEX_ID_EMPLOYEE);
-            if (checkId == false) {
-                System.out.println("please enter again");
-            }
-        } while (checkId == false);
-        return id;
+    public static boolean validateIdEmployee(String id) {
+        boolean checkId = id.matches(REGEX_ID_EMPLOYEE);
+        if (checkId == false) {
+            System.out.println("please enter again");
+        }
+        return checkId;
     }
 
 
-    public static String validateName() {
-        boolean checkName;
-        String name;
-        do {
-            System.out.println("enter name");
-            name = scanner.nextLine();
-            checkName = name.matches(REGEX_NAME);
-            if (checkName == false) {
-                System.out.println("please enter again");
-            }
-        } while (checkName == false);
-        return name;
+    public static boolean validateName(String name) {
+        boolean checkName = name.matches(REGEX_NAME);
+        if (checkName == false) {
+            System.out.println("please enter again");
+        }
+        return checkName;
     }
 
-    public static String validateDateOfBirth() {
-        boolean checkDateOfBirth;
-        String dateOfBirth;
-        do {
-            System.out.println("enter dateOfBirth");
-            dateOfBirth = scanner.nextLine();
-            checkDateOfBirth = dateOfBirth.matches(REGEX_DATEOFBIRTH);
-            if (checkDateOfBirth == false) {
-                System.out.println("Please enter again");
-            }
-        } while (checkDateOfBirth == false);
-        return dateOfBirth;
+    public static boolean validateDateOfBirth(String dateOfBirth) {
+        boolean checkDateOfBirth = dateOfBirth.matches(REGEX_DATEOFBIRTH);
+        if (checkDateOfBirth == false) {
+            System.out.println("Please enter again");
+        }
+        return checkDateOfBirth;
     }
 
-    public static String validateIdentity() {
-        boolean checkIdentity;
-        String identity;
-        do {
-            System.out.println("enter identity");
-            identity = scanner.nextLine();
-            checkIdentity = identity.matches(REGEX_IDENTITY);
-            if (checkIdentity == false) {
-                System.out.println("please enter again");
-            }
-        } while (checkIdentity == false);
-        return identity;
+    public static boolean validateIdentity(String identity) {
+        boolean checkIdentity = identity.matches(REGEX_IDENTITY);
+        if (checkIdentity == false) {
+            System.out.println("please enter again");
+        }
+        return checkIdentity;
     }
 
-    public static String validatePhoneNumber() {
-        boolean checkPhoneNumber;
-        String phoneNumber;
-        System.out.println("enter phoneNumber");
-        do {
-            phoneNumber = scanner.nextLine();
-            checkPhoneNumber = phoneNumber.matches(REGEX_PHONENUMBER);
-            if (checkPhoneNumber == false) {
-                System.out.println("pleas eenter again");
-            }
-        } while (checkPhoneNumber == false);
-        return phoneNumber;
+    public static boolean validatePhoneNumber(String phoneNumber) {
+        boolean checkPhoneNumber = phoneNumber.matches(REGEX_PHONENUMBER);
+        if (checkPhoneNumber == false) {
+            System.out.println("pleas eenter again");
+        }
+        return checkPhoneNumber;
     }
 
     public static int ValidateSalaryEmployee() {
@@ -131,7 +66,7 @@ public class Regex {
         do {
             try {
                 salary = Integer.parseInt(scanner.nextLine());
-                if (salary>0){
+                if (salary > 0) {
                     return salary;
                 }
             } catch (NumberFormatException e) {
@@ -139,6 +74,37 @@ public class Regex {
             }
         } while (true);
     }
+
+    public static String checkLevelEmployee() {
+        int option;
+        System.out.println("enter levelEmployee");
+        System.out.println("1. Trung cap");
+        System.out.println("2. Cao dang");
+        System.out.println("3. Dai hoc");
+        System.out.println("4.Sau dai hoc");
+        option = Integer.parseInt(scanner.nextLine());
+        String result = "";
+        switch (option) {
+            case 1:
+                result = "Trung cap";
+                System.out.println("Trung cap");
+                break;
+            case 2:
+                result = "Cao dang";
+                System.out.println("Cao dang");
+                break;
+            case 3:
+                result = "Dai hoc";
+                System.out.println("Dai hoc");
+                break;
+            case 4:
+                result = "Sau dai hoc";
+                System.out.println("Sau dai hoc");
+                break;
+        }
+        return result;
+    }
+
     public static String checkCustomerType() {
         int option;
         System.out.println("enter cutomerType");
@@ -161,6 +127,7 @@ public class Regex {
             case 3:
                 result = "Gold";
                 System.out.println("Gold");
+                break;
             case 4:
                 result = "Silver";
                 System.out.println("Silver");
@@ -168,6 +135,7 @@ public class Regex {
             case 5:
                 result = "Member";
                 System.out.println("Member");
+                break;
         }
         return result;
     }

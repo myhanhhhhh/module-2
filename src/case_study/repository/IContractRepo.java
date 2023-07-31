@@ -1,2 +1,4 @@
-package case_study.repository;public interface IContractRepo {
+package case_study.repository;
+
+public interface IContractRepo {
 }

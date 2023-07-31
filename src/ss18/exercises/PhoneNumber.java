@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class PhoneNumber {
     private static Pattern pattern;
     private static Matcher matcher;
-    private static final String PHONE_REGEX = "^[(][8][4][)][-][(][0]\\d{9}[)]$";
+    private static final String PHONE_REGEX = "^\\([8][4]\\)[-]\\([0]\\d{9}\\)$";
 
     public PhoneNumber() {
         pattern = Pattern.compile(PHONE_REGEX);

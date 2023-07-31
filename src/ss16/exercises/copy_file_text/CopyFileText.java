@@ -1,4 +1,4 @@
-package ss16.exercises;
+package ss16.exercises.copy_file_text;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -39,9 +39,9 @@ public class CopyFileText {
     }
 
     public static void main(String[] args) {
-        String inputFile = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/source.txt";
-        String ouputFile = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/target.txt";
-        read(inputFile);
-        write(read(inputFile),ouputFile);
+        String sourceFile = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/source.txt";
+        String targetFile = "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss16/exercises/target.txt";
+        read(sourceFile);
+        write(read(sourceFile),targetFile);
     }
 }

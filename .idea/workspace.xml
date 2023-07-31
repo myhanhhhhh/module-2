@@ -4,14 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="alo">
-      <change afterPath="$PROJECT_DIR$/src/ss13/exercises/Demo.java" afterDir="false" />
+    <list default="true" id="a9fa87b8-2f02-462a-a19d-faedff8f7e8e" name="Changes" comment="&#10;0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/exercises/product/model/SortDownProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercises/product/model/SortDownProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/exercises/product/model/SortUpProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercises/product/model/SortUpProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/common/IdAvailable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/common/IdAvailable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/common/IdNotFound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/common/IdNotFound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/common/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/common/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/controller/FacilityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controller/FacilityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/controller/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controller/FuramaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/customer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/employee.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/booking/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/booking/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/booking/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/facility/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/facility/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/facility/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/facility/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/facility/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/facility/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/facility/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/facility/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/person/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/person/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/person/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/model/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/model/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/BookingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/BookingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/ContractRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/ContractRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/EmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/EmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/FacilityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/FacilityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/IBookingRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/IBookingRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/IContractRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/IContractRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/ICustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/ICustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/IEmployeeRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/IEmployeeRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/repository/IFacilityRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/repository/IFacilityRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/utils/ReadAndWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/utils/ReadAndWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/exercises/product/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercises/product/repository/IProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss12/exercises/product/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercises/product/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss12/exercises/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/exercises/product/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss13/exercises/AscendingString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/exercises/AscendingString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/exercises/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/exercises/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/exercises/ConsecutiveString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/exercises/ConsecutiveString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss13/practice/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss13/practice/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/exercises/IllegalTriangleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss15/exercises/IllegalTriangleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/exercises/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss15/exercises/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss15/exercises/TriangleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss15/exercises/TriangleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/exercises/copy_file_text/CopyFileText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/exercises/copy_file_text/CopyFileText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/exercises/ex1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/exercises/read_file/ReadAndWriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/exercises/read_file/ReadAndWriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/exercises/read_file/target.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/exercises/read_file/target.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/practice/FindMaxValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/practice/FindMaxValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/practice/ReadAndWriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/practice/ReadAndWriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/practice/ReadFileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/practice/ReadFileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss16/practice/file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss16/practice/file.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/exercises/product/data/list.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/exercises/product/data/list.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/exercises/product/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/exercises/product/repository/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/practice/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/practice/FileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss18/exercises/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss18/exercises/PhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +91,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/myhanh/IdeaProjects/module-2/module-2/src/ss9/practice",
+    "last.edited.regexp": "Sample Text",
+    "last_opened_file_path": "/Users/myhanh/IdeaProjects/module-2/module-2 16.22.32",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,24 +108,30 @@
       <recent name="ss12.exercises.product.repository" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ss16/exercises/copy_file_text" />
       <recent name="$PROJECT_DIR$/src/ss9/practice" />
       <recent name="$PROJECT_DIR$/src/ss9/practice/model" />
       <recent name="$PROJECT_DIR$/src/ss9/demo" />
       <recent name="$PROJECT_DIR$/src/ss1/exercises" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ss17/exercises/product/data" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="case_study.repository" />
+      <recent name="case_study.model.person.customer" />
+      <recent name="ss16.exercises.copy_file_text" />
       <recent name="ss13.exercises" />
       <recent name="ss11.exercises.Reverse" />
-      <recent name="ss9.practice.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.BinaryTree" />
+  <component name="RunManager" selected="Application.case_study.view.View">
+    <configuration name="ClassName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss18.exercises.ClassName" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.*" />
+          <option name="PATTERN" value="ss18.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +139,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.exercises.Demo" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="case_study.common.Main" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.exercises.*" />
+          <option name="PATTERN" value="case_study.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss18.exercises.PhoneNumber" />
+      <module name="module-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss18.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.exercises.reverse.ReverseNumber" />
+    <configuration name="case_study.view.View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="case_study.view.View" />
       <module name="module-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11.exercises.reverse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ss13.exercises.AscendingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.exercises.AscendingString" />
-      <module name="module-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss13.exercises.*" />
+          <option name="PATTERN" value="case_study.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.ss13.exercises.AscendingString" />
+        <item itemvalue="Application.case_study.view.View" />
+        <item itemvalue="Application.PhoneNumber" />
+        <item itemvalue="Application.ClassName" />
+        <item itemvalue="Application.case_study.Common.Main" />
         <item itemvalue="Application.ProductController" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.ReverseNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +211,17 @@
       <updated>1688441755441</updated>
       <workItem from="1688441756443" duration="15305000" />
       <workItem from="1688467254369" duration="83220000" />
-      <workItem from="1688810089249" duration="205133000" />
+      <workItem from="1688810089249" duration="225025000" />
+      <workItem from="1689855874929" duration="5000" />
+      <workItem from="1689860140001" duration="15116000" />
+      <workItem from="1689990417198" duration="1791000" />
+      <workItem from="1690191929825" duration="1653000" />
+      <workItem from="1690193590730" duration="3000" />
+      <workItem from="1690251659205" duration="18627000" />
+      <workItem from="1690333630158" duration="38229000" />
+      <workItem from="1690398482848" duration="5000" />
+      <workItem from="1690398497418" duration="4000" />
+      <workItem from="1690420166879" duration="110984000" />
     </task>
     <task id="LOCAL-00001" summary="alo">
       <option name="closed" value="true" />

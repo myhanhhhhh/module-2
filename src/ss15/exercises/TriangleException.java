@@ -2,10 +2,10 @@ package ss15.exercises;
 
 import java.util.Scanner;
 
-public class IllegalTriangleException {
+public class TriangleException {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        TriangleCheck check = new TriangleCheck();
+        Triangle check = new Triangle();
         do {
             try {
                 System.out.println("nhap canh a");
@@ -16,7 +16,7 @@ public class IllegalTriangleException {
                 int c = Integer.parseInt(scanner.nextLine());
                 try {
                     check.checkTriangle(a, b, c);
-                } catch (TriangleException e) {
+                } catch (IllegalTriangleException e) {
                     System.out.println(e.getMessage());
                 }
             } catch (Exception e) {

@@ -23,8 +23,9 @@ public class AscendingString {
             }
             list.clear();
         }
-        for (Character element : max)
-        System.out.print(element);
+        for (Character element : max) {
+            System.out.print(element);
+        }
     }
 }
 

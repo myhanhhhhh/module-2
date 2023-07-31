@@ -20,20 +20,20 @@ public class BinaryTree {
         System.out.println("mang sap xep tang dan: " + myList);
         System.out.println("nhap so can tim:");
         int number = scanner.nextInt();
-        System.out.println("so can tim o vi tri thu "+binarySearch( myList, 0, myList.size()-1, number));
+        System.out.println("so can tim o vi tri thu " + binarySearch(myList, 0, myList.size() - 1, number));
     }
-    public static int binarySearch(List<Integer> list, int left, int right, int value){
-        while(right>=left) {
-            int mid = (left+right)/2;
-            if(value < list.get(mid))
+
+    public static int binarySearch(List<Integer> list, int left, int right, int value) {
+        while (right >= left) {
+            int mid = (left + right) / 2;
+            if (value < list.get(mid))
                 right = mid - 1;
             else if (value == list.get(mid)) {
                 return mid;
-            }
-            else
+            } else
                 left = mid + 1;
         }
         return -1;
     }
-    }
+}
 

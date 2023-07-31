@@ -1,14 +1,14 @@
-package case_study.repository.class_repository;
+package case_study.repository;
 
 import case_study.model.person.Customer;
-import case_study.repository.interface_repository.ICustomerRepo;
 import case_study.utils.ReadAndWrite;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class CustomerRepo implements ICustomerRepo {
-    public static final String FILE_PATH = "/Users/myhanh/IdeaProjects/module-2/module-2 16.22.32/src/data/customer.csv";
+    public static final String FILE_PATH = "/Users/myhanh/IdeaProjects/module-2/module-2 16.22.32/src/case_study/data/customer.csv";
 
     @Override
     public List<Customer> display() {
@@ -50,14 +50,10 @@ public class CustomerRepo implements ICustomerRepo {
         List<String> strings = new ArrayList<>();
         List<Customer> customerList = this.display();
         for (int i = 0; i < customerList.size(); i++) {
-            do {
-                if (!customerList.get(i).getIdCustomer().equals(id)) {
-                    System.out.println("please enter again");
-                } else {
-                    customerList.remove(customerList.get(i));
-                    break;
-                }
-            } while (!customerList.get(i).getIdCustomer().equals(id));
+            if (customerList.get(i).getIdCustomer().equals(id)) {
+                customerList.remove(customerList.get(i));
+                break;
+            }
         }
         for (Customer customer : customerList) {
             strings.add(customer.getIntoCsv());
@@ -65,10 +61,19 @@ public class CustomerRepo implements ICustomerRepo {
         ReadAndWrite.writeFile(FILE_PATH, strings, false);
     }
 
-
     @Override
     public List<Customer> searchCustomer(String name) {
         List<Customer> customerList = this.display();
         return customerList;
+    }
+
+    public int searchIndex(String id) {
+        List<Customer> customerList = display();
+        for (int i = 0; i < customerList.size(); i++) {
+            if (Objects.equals(id, customerList.get(i).getIdCustomer())) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
