@@ -9,6 +9,10 @@ public class Regex {
     private static final String REGEX_IDENTITY = "^[0-9]{9}([0-9]{3})?$";
     private static final String REGEX_PHONENUMBER = "^0[0-9]{9}$";
     private static final String REGEX_ID_CUSTOMER = "KH-[0-9]{4}";
+    private static final String REGEX_ID_VILLA = "SVVL-[0-1]{4}";
+    private static final String REGEX_ID_HOUSE = "SVHO-[0-1]{4}";
+    private static final String REGEX_ID_ROOM = "SVRO-[0-1]{4}";
+
 
     public static boolean validateIdCustomer(String id) {
         boolean checkId = id.matches(REGEX_ID_CUSTOMER);
@@ -138,5 +142,96 @@ public class Regex {
                 break;
         }
         return result;
+    }
+
+    public static boolean validateIdVilla(String id) {
+        boolean checkId = id.matches(REGEX_ID_VILLA);
+        if (checkId == false) {
+            System.out.println("please enter again");
+        }
+        return checkId;
+    }
+
+    public static boolean validateIdHouse(String id) {
+        boolean checkId = id.matches(REGEX_ID_HOUSE);
+        if (checkId == false) {
+            System.out.println("please enter again");
+        }
+        return checkId;
+    }
+
+    public static boolean validateIdRoom(String id) {
+        boolean checkId = id.matches(REGEX_ID_ROOM);
+        if (checkId == false) {
+            System.out.println("please enter again");
+        }
+        return checkId;
+    }
+
+    public static double checkUsableAreaAndPoolArea() {
+        double usableArea;
+        do {
+            try {
+                usableArea = Double.parseDouble(scanner.nextLine());
+                if (usableArea > 30) {
+                    return usableArea;
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("please enter number again");
+            }
+        } while (true);
+    }
+
+    public static double checkRentalCost() {
+        double rentalCost = 0;
+        System.out.println("enter rentalCost");
+        do {
+            try {
+                rentalCost = Double.parseDouble(scanner.nextLine());
+                if (rentalCost > 0) {
+                    return rentalCost;
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("please enter number again");
+            }
+        } while (true);
+    }
+
+    public static int checkMaxPeople() {
+        int maxPeople = 0;
+        System.out.println("enter maxPeople");
+        do {
+            try {
+                maxPeople = Integer.parseInt(scanner.nextLine());
+                if (maxPeople > 0 && maxPeople < 20) {
+                    return maxPeople;
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("please enter number again");
+            }
+        } while (true);
+    }
+
+    public static int checkNumberOfFloor() {
+        int numberOfFloor = 0;
+        System.out.println("enter numberOfFloor");
+        do {
+            try {
+                numberOfFloor = Integer.parseInt(scanner.nextLine());
+                if (numberOfFloor > 0) {
+                    return numberOfFloor;
+                }
+            } catch (NumberFormatException e) {
+                System.out.println("please enter number again");
+            }
+        } while (true);
+    }
+
+    public static boolean validateRentalTypeAndKindOfRoom(String id) {
+        boolean checkId = id.matches(REGEX_NAME);
+        if (checkId == false) {
+            System.out.println("please enter again");
+        }
+        return checkId;
     }
 }

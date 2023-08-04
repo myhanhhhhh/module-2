@@ -15,37 +15,32 @@ import static case_study.controller.FuramaController.scanner;
 public class CustomerService implements ICustomerService {
     private ICustomerRepo repository = new CustomerRepo();
 
-    public static String[] checkInformation() {
+    public static String[] inputAndCheckData() {
         String name;
         do {
             System.out.println("enter name");
             name = scanner.nextLine();
         } while (!Regex.validateName(name));
-        Regex.validateName(name);
         String dateOfBirth;
         do {
             System.out.println("enter dateOfBirth");
             dateOfBirth = scanner.nextLine();
         } while (!Regex.validateDateOfBirth(dateOfBirth));
-        Regex.validateDateOfBirth(dateOfBirth);
         String gender;
         do {
             System.out.println("enter gender");
             gender = scanner.nextLine();
         } while (Regex.validateDateOfBirth(gender));
-        Regex.validateDateOfBirth(gender);
         String identity;
         do {
             System.out.println("enter identity");
             identity = scanner.nextLine();
         } while (!Regex.validateIdentity(identity));
-        Regex.validateIdentity(identity);
         String phoneNumber;
         do {
             System.out.println("enter phoneNumber");
             phoneNumber = scanner.nextLine();
         } while (!Regex.validatePhoneNumber(phoneNumber));
-        Regex.validatePhoneNumber(phoneNumber);
         System.out.println("enter email");
         String email = scanner.nextLine();
         String customerType = Regex.checkCustomerType();
@@ -72,11 +67,10 @@ public class CustomerService implements ICustomerService {
             do {
                 id = scanner.nextLine();
             } while (!Regex.validateIdCustomer(id));
-            Regex.validateIdCustomer(id);
             int index = repository.searchIndex(id);
             try {
                 if (index == -1) {
-                    String arr[] = checkInformation();
+                    String arr[] = inputAndCheckData();
                     Customer customer1 = new Customer(id, arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7]);
                     repository.addCustomer(customer1);
                     break;
@@ -99,12 +93,11 @@ public class CustomerService implements ICustomerService {
             do {
                 id = scanner.nextLine();
             } while (!Regex.validateIdCustomer(id));
-            Regex.validateIdCustomer(id);
             int index = repository.searchIndex(id);
             try {
                 if (index != -1) {
-                    String arr[] = checkInformation();
-                    Customer customer1 = new Customer(id, arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6], arr[7]);
+                    String customerData[] = inputAndCheckData();
+                    Customer customer1 = new Customer(id, customerData[0], customerData[1], customerData[2], customerData[3], customerData[4], customerData[5], customerData[6], customerData[7]);
                     repository.editCustomer(id, customer1);
                     break;
                 } else {
@@ -125,7 +118,6 @@ public class CustomerService implements ICustomerService {
                 id = scanner.nextLine();
             } while (!Regex.validateIdCustomer(id));
             do {
-                Regex.validateIdCustomer(id);
                 int index = repository.searchIndex(id);
                 try {
                     if (index != -1) {
@@ -155,7 +147,6 @@ public class CustomerService implements ICustomerService {
             System.out.println("enter name");
             name = scanner.nextLine();
         } while (!Regex.validateName(name));
-        Regex.validateName("enter email");
         List<Customer> customerList = repository.searchCustomer(name);
         for (int i = 0; i < customerList.size(); i++) {
             if (customerList.get(i).getName().contains(name)) {

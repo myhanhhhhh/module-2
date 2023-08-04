@@ -15,37 +15,29 @@ import static case_study.controller.FuramaController.scanner;
 public class EmployeeService implements IEmployeeService {
     private IEmployeeRepo repository = new EmployeeRepo();
 
-    public static String[] checkInformation() {
+    public static String[] inputAndCheckData() {
         String name;
         do {
             System.out.println("enter name");
             name = scanner.nextLine();
         } while (!Regex.validateName(name));
-        Regex.validateName(name);
         String dateOfBirth;
         do {
             System.out.println("enter dateOfBirth");
             dateOfBirth = scanner.nextLine();
         } while (!Regex.validateDateOfBirth(dateOfBirth));
-        Regex.validateDateOfBirth(dateOfBirth);
-        String gender;
-        do {
-            System.out.println("enter gender");
-            gender = scanner.nextLine();
-        } while (Regex.validateDateOfBirth(gender));
-        Regex.validateDateOfBirth(gender);
+        System.out.println("enter gender");
+        String gender = scanner.nextLine();
         String identity;
         do {
             System.out.println("enter identity");
             identity = scanner.nextLine();
         } while (!Regex.validateIdentity(identity));
-        Regex.validateIdentity(identity);
         String phoneNumber;
         do {
             System.out.println("enter phoneNumber");
             phoneNumber = scanner.nextLine();
         } while (!Regex.validatePhoneNumber(phoneNumber));
-        Regex.validatePhoneNumber(phoneNumber);
         System.out.println("enter email");
         String email = scanner.nextLine();
         String level = Regex.checkLevelEmployee();
@@ -73,11 +65,10 @@ public class EmployeeService implements IEmployeeService {
             do {
                 id = scanner.nextLine();
             } while (!Regex.validateIdEmployee(id));
-            Regex.validateIdEmployee(id);
             int index = repository.searchIndex(id);
             try {
                 if (index == -1) {
-                    String array[] = checkInformation();
+                    String array[] = inputAndCheckData();
                     Employee employee = new Employee(id, array[0], array[1], array[2], array[3], array[4], array[5],
                             array[6], array[7], Integer.parseInt(array[8]));
                     repository.addEmployee(employee);
@@ -100,12 +91,11 @@ public class EmployeeService implements IEmployeeService {
             do {
                 id = scanner.nextLine();
             } while (!Regex.validateIdEmployee(id));
-            Regex.validateIdEmployee(id);
             int index = repository.searchIndex(id);
             try {
                 if (index != -1) {
-                    String array[] = checkInformation();
-                    Employee employee = new Employee(id, array[0], array[1], array[2], array[3], array[4], array[5], array[6], array[7], Integer.parseInt(array[8]));
+                    String employeeData[] = inputAndCheckData();
+                    Employee employee = new Employee(id, employeeData[0], employeeData[1], employeeData[2], employeeData[3], employeeData[4], employeeData[5], employeeData[6], employeeData[7], Integer.parseInt(employeeData[8]));
                     repository.editEmployee(id, employee);
                     break;
                 } else {
@@ -126,7 +116,6 @@ public class EmployeeService implements IEmployeeService {
             do {
                 id = scanner.nextLine();
             } while (!Regex.validateIdEmployee(id));
-            Regex.validateIdEmployee(id);
             int index = repository.searchIndex(id);
             try {
                 if (index != -1) {
@@ -151,11 +140,8 @@ public class EmployeeService implements IEmployeeService {
     @Override
     public void searchEmployee() {
         String name;
-        do {
             System.out.println("enter name");
             name = scanner.nextLine();
-        } while (!Regex.validateName(name));
-        Regex.validateName(name);
         List<Employee> employeeSearchList = repository.searchEmployee(name);
         for (int i = 0; i < employeeSearchList.size(); i++) {
             if (employeeSearchList.get(i).getName().contains(name)) {
